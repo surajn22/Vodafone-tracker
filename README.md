@@ -17,13 +17,13 @@ Login.js:- It is a dummy login page with username = d@d.com & pwd = 1234
 App.js:- It loads the data.json and passes it to the Activities.js page
 
 -------------
-Activities.js:- It is a container for all the tickets
+Activities.js:- It is a container for all the actions performed on a particular ticket  
 
 -------------
-Activity.js:- It loads individual activities of a ticket
+Activity.js:- It loads individual actions of a ticket
 
 -------------
-Header.js:- It contains the ticket header details like Ticket No, status etc.
+Header.js:- It contains basic information of the ticket itself like Ticket No, status etc.
 
 -------------
 data.json:- It contains the ticket data returned from backend in json format
