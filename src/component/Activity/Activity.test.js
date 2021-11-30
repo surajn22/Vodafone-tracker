@@ -1,9 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import App from './App';
+import Activity from './Activity';
+
 it('renders correctly', () => {
   const tree = renderer
-    .create(<App />)
+    .create(<Activity />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });

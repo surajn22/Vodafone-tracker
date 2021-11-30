@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="login"
+>
+  <div
+    className="form"
+  >
+    <span>
+      Dummy Login
+    </span>
+    <input
+      onChange={[Function]}
+      placeholder="email"
+      type="text"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="password"
+      type="password"
+    />
+    <button
+      onClick={[Function]}
+    >
+       login
+    </button>
+  </div>
+</div>
+`;

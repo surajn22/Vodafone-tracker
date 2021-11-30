@@ -1,0 +1,640 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="main"
+>
+  <div
+    className="timeline-container"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="head"
+      >
+        <h2
+          className="title"
+        >
+          Ticket no: #
+          1234
+        </h2>
+        <h3
+          className="details"
+        >
+          Status: 
+          <span
+            className="details"
+            style={
+              Object {
+                "color": "green",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            In Progress
+          </span>
+        </h3>
+        <h3
+          className="details"
+        >
+          Created On: 
+          <span>
+            May 23, 2020
+          </span>
+           
+        </h3>
+        <div
+          className="container-fluid"
+        >
+          <div>
+            <button
+              className="btn btn-danger btn-sm"
+              data-for="toolTip1"
+              data-tip="Cancel the Ticket"
+              disabled={false}
+              type="button"
+            >
+               
+               Cancel Ticket 
+               
+            </button>
+            <div
+              className="__react_component_tooltip tf6543f1c-a011-45b9-8725-29377b9d0142 place-top type-dark"
+              data-id="tooltip"
+              id="toolTip1"
+            >
+              <style
+                aria-hidden="true"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "
+  	.tf6543f1c-a011-45b9-8725-29377b9d0142 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tf6543f1c-a011-45b9-8725-29377b9d0142.place-top {
+        margin-top: -10px;
+    }
+    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-bottom {
+        margin-top: 10px;
+    }
+    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-left {
+        margin-left: -10px;
+    }
+    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-right {
+        margin-left: 10px;
+    }
+    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  ",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="container"
+    >
+      <div
+        className="journey"
+      >
+        <h1>
+          Ticket Journey
+        </h1>
+      </div>
+      <ul
+        className="list-update"
+      >
+        <li
+          className="update"
+          ng-repeat="itembx"
+        >
+          <div
+            className="activity"
+          >
+            <h3
+              className="details"
+            >
+              RCC
+               | 
+              <span
+                className="details"
+                style={
+                  Object {
+                    "color": "green",
+                  }
+                }
+              >
+                Completed
+              </span>
+            </h3>
+            <span>
+              May 25, 2020 8:47 AM
+            </span>
+            <p>
+               
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-comment fa-w-16 "
+                color="#E62000"
+                data-icon="comment"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 32C114.6 32 0 125.1 0 240c0 49.6 21.4 95 57 130.7C44.5 421.1 2.7 466 2.2 466.5c-2.2 2.3-2.8 5.7-1.5 8.7S4.8 480 8 480c66.3 0 116-31.8 140.6-51.4 32.7 12.3 69 19.4 107.4 19.4 141.4 0 256-93.1 256-208S397.4 32 256 32z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+               
+              Programming a frontend is nice!
+            </p>
+          </div>
+        </li>
+        <li
+          className="update"
+          ng-repeat="itembx"
+        >
+          <div
+            className="activity"
+          >
+            <h3
+              className="details"
+            >
+              SM1
+               | 
+              <span
+                className="details"
+                style={
+                  Object {
+                    "color": "green",
+                  }
+                }
+              >
+                Completed
+              </span>
+            </h3>
+            <span>
+              May 27, 2020 8:47 AM
+            </span>
+            <p>
+               
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-comment fa-w-16 "
+                color="#E62000"
+                data-icon="comment"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 32C114.6 32 0 125.1 0 240c0 49.6 21.4 95 57 130.7C44.5 421.1 2.7 466 2.2 466.5c-2.2 2.3-2.8 5.7-1.5 8.7S4.8 480 8 480c66.3 0 116-31.8 140.6-51.4 32.7 12.3 69 19.4 107.4 19.4 141.4 0 256-93.1 256-208S397.4 32 256 32z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+               
+              But Backend is even nicer!
+            </p>
+          </div>
+        </li>
+        <li
+          className="update"
+          ng-repeat="itembx"
+        >
+          <div
+            className="activity"
+          >
+            <h3
+              className="details"
+            >
+              SM2
+               | 
+              <span
+                className="details"
+                style={
+                  Object {
+                    "color": "red",
+                  }
+                }
+              >
+                Active
+              </span>
+            </h3>
+            <span>
+              May 29, 2020 8:47 AM
+            </span>
+            <p>
+               
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-comment fa-w-16 "
+                color="#E62000"
+                data-icon="comment"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 32C114.6 32 0 125.1 0 240c0 49.6 21.4 95 57 130.7C44.5 421.1 2.7 466 2.2 466.5c-2.2 2.3-2.8 5.7-1.5 8.7S4.8 480 8 480c66.3 0 116-31.8 140.6-51.4 32.7 12.3 69 19.4 107.4 19.4 141.4 0 256-93.1 256-208S397.4 32 256 32z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+               
+              Styling is even better!
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="timeline-container"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="head"
+      >
+        <h2
+          className="title"
+        >
+          Ticket no: #
+          1235
+        </h2>
+        <h3
+          className="details"
+        >
+          Status: 
+          <span
+            className="details"
+            style={
+              Object {
+                "color": "blue",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Completed
+          </span>
+        </h3>
+        <h3
+          className="details"
+        >
+          Created On: 
+          <span>
+            May 23, 2020
+          </span>
+           
+        </h3>
+        <div
+          className="container-fluid"
+        >
+          <div>
+            <button
+              className="btn btn-primary btn-sm"
+              data-for="toolTip1"
+              data-tip="Reopen the Ticket"
+              disabled={false}
+              type="button"
+            >
+               
+               Reopen Ticket
+               
+            </button>
+            <div
+              className="__react_component_tooltip te3d71362-af25-4b17-b585-3c6cb41cf328 place-top type-dark"
+              data-id="tooltip"
+              id="toolTip1"
+            >
+              <style
+                aria-hidden="true"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "
+  	.te3d71362-af25-4b17-b585-3c6cb41cf328 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.te3d71362-af25-4b17-b585-3c6cb41cf328.place-top {
+        margin-top: -10px;
+    }
+    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-bottom {
+        margin-top: 10px;
+    }
+    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-left {
+        margin-left: -10px;
+    }
+    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-right {
+        margin-left: 10px;
+    }
+    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  ",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="container"
+    >
+      <div
+        className="journey"
+      >
+        <h1>
+          Ticket Journey
+        </h1>
+      </div>
+      <ul
+        className="list-update"
+      >
+        <li
+          className="update"
+          ng-repeat="itembx"
+        >
+          <div
+            className="activity"
+          >
+            <h3
+              className="details"
+            >
+              RCC
+               | 
+              <span
+                className="details"
+                style={
+                  Object {
+                    "color": "green",
+                  }
+                }
+              >
+                Completed
+              </span>
+            </h3>
+            <span>
+              May 25, 2020 8:47 AM
+            </span>
+            <p>
+               
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-comment fa-w-16 "
+                color="#E62000"
+                data-icon="comment"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 32C114.6 32 0 125.1 0 240c0 49.6 21.4 95 57 130.7C44.5 421.1 2.7 466 2.2 466.5c-2.2 2.3-2.8 5.7-1.5 8.7S4.8 480 8 480c66.3 0 116-31.8 140.6-51.4 32.7 12.3 69 19.4 107.4 19.4 141.4 0 256-93.1 256-208S397.4 32 256 32z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+               
+              Programming a frontend is nice!
+            </p>
+          </div>
+        </li>
+        <li
+          className="update"
+          ng-repeat="itembx"
+        >
+          <div
+            className="activity"
+          >
+            <h3
+              className="details"
+            >
+              SM1
+               | 
+              <span
+                className="details"
+                style={
+                  Object {
+                    "color": "green",
+                  }
+                }
+              >
+                Completed
+              </span>
+            </h3>
+            <span>
+              May 27, 2020 8:47 AM
+            </span>
+            <p>
+               
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-comment fa-w-16 "
+                color="#E62000"
+                data-icon="comment"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 32C114.6 32 0 125.1 0 240c0 49.6 21.4 95 57 130.7C44.5 421.1 2.7 466 2.2 466.5c-2.2 2.3-2.8 5.7-1.5 8.7S4.8 480 8 480c66.3 0 116-31.8 140.6-51.4 32.7 12.3 69 19.4 107.4 19.4 141.4 0 256-93.1 256-208S397.4 32 256 32z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+               
+              But Backend is even nicer!
+            </p>
+          </div>
+        </li>
+        <li
+          className="update"
+          ng-repeat="itembx"
+        >
+          <div
+            className="activity"
+          >
+            <h3
+              className="details"
+            >
+              SM2
+               | 
+              <span
+                className="details"
+                style={
+                  Object {
+                    "color": "green",
+                  }
+                }
+              >
+                Completed
+              </span>
+            </h3>
+            <span>
+              May 29, 2020 8:47 AM
+            </span>
+            <p>
+               
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-comment fa-w-16 "
+                color="#E62000"
+                data-icon="comment"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 32C114.6 32 0 125.1 0 240c0 49.6 21.4 95 57 130.7C44.5 421.1 2.7 466 2.2 466.5c-2.2 2.3-2.8 5.7-1.5 8.7S4.8 480 8 480c66.3 0 116-31.8 140.6-51.4 32.7 12.3 69 19.4 107.4 19.4 141.4 0 256-93.1 256-208S397.4 32 256 32z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+               
+              Styling is even better!
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
