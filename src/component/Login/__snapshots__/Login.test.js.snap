@@ -7,9 +7,11 @@ exports[`renders correctly 1`] = `
   <div
     className="form"
   >
-    <span>
-      Dummy Login
-    </span>
+    <p
+      className="logo"
+    >
+       
+    </p>
     <input
       onChange={[Function]}
       placeholder="email"

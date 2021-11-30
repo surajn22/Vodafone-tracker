@@ -5,7 +5,7 @@ exports[`renders correctly 1`] = `
   className="main"
 >
   <div
-    className="timeline-container"
+    className="timeline"
   >
     <div
       className="container"
@@ -47,6 +47,7 @@ exports[`renders correctly 1`] = `
         <div
           className="container-fluid"
         >
+           
           <div>
             <button
               className="btn btn-danger btn-sm"
@@ -60,7 +61,7 @@ exports[`renders correctly 1`] = `
                
             </button>
             <div
-              className="__react_component_tooltip tf6543f1c-a011-45b9-8725-29377b9d0142 place-top type-dark"
+              className="__react_component_tooltip t7103072d-8d51-43a3-b7ac-b0cf3fdae8db place-top type-dark"
               data-id="tooltip"
               id="toolTip1"
             >
@@ -69,19 +70,19 @@ exports[`renders correctly 1`] = `
                 dangerouslySetInnerHTML={
                   Object {
                     "__html": "
-  	.tf6543f1c-a011-45b9-8725-29377b9d0142 {
+  	.t7103072d-8d51-43a3-b7ac-b0cf3fdae8db {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.tf6543f1c-a011-45b9-8725-29377b9d0142.place-top {
+  	.t7103072d-8d51-43a3-b7ac-b0cf3fdae8db.place-top {
         margin-top: -10px;
     }
-    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-top::before {
+    .t7103072d-8d51-43a3-b7ac-b0cf3fdae8db.place-top::before {
         border-top: 8px solid transparent;
     }
-    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-top::after {
+    .t7103072d-8d51-43a3-b7ac-b0cf3fdae8db.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -92,13 +93,13 @@ exports[`renders correctly 1`] = `
         border-top-width: 6px;
     }
 
-    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-bottom {
+    .t7103072d-8d51-43a3-b7ac-b0cf3fdae8db.place-bottom {
         margin-top: 10px;
     }
-    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-bottom::before {
+    .t7103072d-8d51-43a3-b7ac-b0cf3fdae8db.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-bottom::after {
+    .t7103072d-8d51-43a3-b7ac-b0cf3fdae8db.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -109,13 +110,13 @@ exports[`renders correctly 1`] = `
         border-bottom-width: 6px;
     }
 
-    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-left {
+    .t7103072d-8d51-43a3-b7ac-b0cf3fdae8db.place-left {
         margin-left: -10px;
     }
-    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-left::before {
+    .t7103072d-8d51-43a3-b7ac-b0cf3fdae8db.place-left::before {
         border-left: 8px solid transparent;
     }
-    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-left::after {
+    .t7103072d-8d51-43a3-b7ac-b0cf3fdae8db.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -126,13 +127,13 @@ exports[`renders correctly 1`] = `
         border-left-width: 6px;
     }
 
-    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-right {
+    .t7103072d-8d51-43a3-b7ac-b0cf3fdae8db.place-right {
         margin-left: 10px;
     }
-    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-right::before {
+    .t7103072d-8d51-43a3-b7ac-b0cf3fdae8db.place-right::before {
         border-right: 8px solid transparent;
     }
-    .tf6543f1c-a011-45b9-8725-29377b9d0142.place-right::after {
+    .t7103072d-8d51-43a3-b7ac-b0cf3fdae8db.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -148,6 +149,7 @@ exports[`renders correctly 1`] = `
               />
             </div>
           </div>
+           
         </div>
       </div>
     </div>
@@ -157,16 +159,17 @@ exports[`renders correctly 1`] = `
       <div
         className="journey"
       >
+         
         <h1>
           Ticket Journey
         </h1>
+         
       </div>
       <ul
-        className="list-update"
+        className="list-actions"
       >
         <li
           className="update"
-          ng-repeat="itembx"
         >
           <div
             className="activity"
@@ -217,7 +220,6 @@ exports[`renders correctly 1`] = `
         </li>
         <li
           className="update"
-          ng-repeat="itembx"
         >
           <div
             className="activity"
@@ -268,7 +270,6 @@ exports[`renders correctly 1`] = `
         </li>
         <li
           className="update"
-          ng-repeat="itembx"
         >
           <div
             className="activity"
@@ -321,7 +322,7 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="timeline-container"
+    className="timeline"
   >
     <div
       className="container"
@@ -363,6 +364,7 @@ exports[`renders correctly 1`] = `
         <div
           className="container-fluid"
         >
+           
           <div>
             <button
               className="btn btn-primary btn-sm"
@@ -376,7 +378,7 @@ exports[`renders correctly 1`] = `
                
             </button>
             <div
-              className="__react_component_tooltip te3d71362-af25-4b17-b585-3c6cb41cf328 place-top type-dark"
+              className="__react_component_tooltip tddf05606-28d8-4a1a-8a33-6016e8030e34 place-top type-dark"
               data-id="tooltip"
               id="toolTip1"
             >
@@ -385,19 +387,19 @@ exports[`renders correctly 1`] = `
                 dangerouslySetInnerHTML={
                   Object {
                     "__html": "
-  	.te3d71362-af25-4b17-b585-3c6cb41cf328 {
+  	.tddf05606-28d8-4a1a-8a33-6016e8030e34 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.te3d71362-af25-4b17-b585-3c6cb41cf328.place-top {
+  	.tddf05606-28d8-4a1a-8a33-6016e8030e34.place-top {
         margin-top: -10px;
     }
-    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-top::before {
+    .tddf05606-28d8-4a1a-8a33-6016e8030e34.place-top::before {
         border-top: 8px solid transparent;
     }
-    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-top::after {
+    .tddf05606-28d8-4a1a-8a33-6016e8030e34.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -408,13 +410,13 @@ exports[`renders correctly 1`] = `
         border-top-width: 6px;
     }
 
-    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-bottom {
+    .tddf05606-28d8-4a1a-8a33-6016e8030e34.place-bottom {
         margin-top: 10px;
     }
-    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-bottom::before {
+    .tddf05606-28d8-4a1a-8a33-6016e8030e34.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-bottom::after {
+    .tddf05606-28d8-4a1a-8a33-6016e8030e34.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -425,13 +427,13 @@ exports[`renders correctly 1`] = `
         border-bottom-width: 6px;
     }
 
-    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-left {
+    .tddf05606-28d8-4a1a-8a33-6016e8030e34.place-left {
         margin-left: -10px;
     }
-    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-left::before {
+    .tddf05606-28d8-4a1a-8a33-6016e8030e34.place-left::before {
         border-left: 8px solid transparent;
     }
-    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-left::after {
+    .tddf05606-28d8-4a1a-8a33-6016e8030e34.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -442,13 +444,13 @@ exports[`renders correctly 1`] = `
         border-left-width: 6px;
     }
 
-    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-right {
+    .tddf05606-28d8-4a1a-8a33-6016e8030e34.place-right {
         margin-left: 10px;
     }
-    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-right::before {
+    .tddf05606-28d8-4a1a-8a33-6016e8030e34.place-right::before {
         border-right: 8px solid transparent;
     }
-    .te3d71362-af25-4b17-b585-3c6cb41cf328.place-right::after {
+    .tddf05606-28d8-4a1a-8a33-6016e8030e34.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -464,6 +466,7 @@ exports[`renders correctly 1`] = `
               />
             </div>
           </div>
+           
         </div>
       </div>
     </div>
@@ -473,16 +476,17 @@ exports[`renders correctly 1`] = `
       <div
         className="journey"
       >
+         
         <h1>
           Ticket Journey
         </h1>
+         
       </div>
       <ul
-        className="list-update"
+        className="list-actions"
       >
         <li
           className="update"
-          ng-repeat="itembx"
         >
           <div
             className="activity"
@@ -533,7 +537,6 @@ exports[`renders correctly 1`] = `
         </li>
         <li
           className="update"
-          ng-repeat="itembx"
         >
           <div
             className="activity"
@@ -584,7 +587,6 @@ exports[`renders correctly 1`] = `
         </li>
         <li
           className="update"
-          ng-repeat="itembx"
         >
           <div
             className="activity"

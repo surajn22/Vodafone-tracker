@@ -35,6 +35,7 @@ exports[`renders correctly 1`] = `
   <div
     className="container-fluid"
   >
+     
     <div>
       <button
         className="btn btn-primary btn-sm"
@@ -48,7 +49,7 @@ exports[`renders correctly 1`] = `
          
       </button>
       <div
-        className="__react_component_tooltip td76ab9e8-52f4-4732-b789-ff26aecd53f8 place-top type-dark"
+        className="__react_component_tooltip t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d place-top type-dark"
         data-id="tooltip"
         id="toolTip1"
       >
@@ -57,19 +58,19 @@ exports[`renders correctly 1`] = `
           dangerouslySetInnerHTML={
             Object {
               "__html": "
-  	.td76ab9e8-52f4-4732-b789-ff26aecd53f8 {
+  	.t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
   	}
 
-  	.td76ab9e8-52f4-4732-b789-ff26aecd53f8.place-top {
+  	.t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d.place-top {
         margin-top: -10px;
     }
-    .td76ab9e8-52f4-4732-b789-ff26aecd53f8.place-top::before {
+    .t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d.place-top::before {
         border-top: 8px solid transparent;
     }
-    .td76ab9e8-52f4-4732-b789-ff26aecd53f8.place-top::after {
+    .t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d.place-top::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         bottom: -6px;
@@ -80,13 +81,13 @@ exports[`renders correctly 1`] = `
         border-top-width: 6px;
     }
 
-    .td76ab9e8-52f4-4732-b789-ff26aecd53f8.place-bottom {
+    .t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d.place-bottom {
         margin-top: 10px;
     }
-    .td76ab9e8-52f4-4732-b789-ff26aecd53f8.place-bottom::before {
+    .t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d.place-bottom::before {
         border-bottom: 8px solid transparent;
     }
-    .td76ab9e8-52f4-4732-b789-ff26aecd53f8.place-bottom::after {
+    .t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d.place-bottom::after {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         top: -6px;
@@ -97,13 +98,13 @@ exports[`renders correctly 1`] = `
         border-bottom-width: 6px;
     }
 
-    .td76ab9e8-52f4-4732-b789-ff26aecd53f8.place-left {
+    .t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d.place-left {
         margin-left: -10px;
     }
-    .td76ab9e8-52f4-4732-b789-ff26aecd53f8.place-left::before {
+    .t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d.place-left::before {
         border-left: 8px solid transparent;
     }
-    .td76ab9e8-52f4-4732-b789-ff26aecd53f8.place-left::after {
+    .t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d.place-left::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         right: -6px;
@@ -114,13 +115,13 @@ exports[`renders correctly 1`] = `
         border-left-width: 6px;
     }
 
-    .td76ab9e8-52f4-4732-b789-ff26aecd53f8.place-right {
+    .t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d.place-right {
         margin-left: 10px;
     }
-    .td76ab9e8-52f4-4732-b789-ff26aecd53f8.place-right::before {
+    .t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d.place-right::before {
         border-right: 8px solid transparent;
     }
-    .td76ab9e8-52f4-4732-b789-ff26aecd53f8.place-right::after {
+    .t4db53578-1fe7-4ab5-8ac3-54e8f3b24f5d.place-right::after {
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         left: -6px;
@@ -136,6 +137,7 @@ exports[`renders correctly 1`] = `
         />
       </div>
     </div>
+     
   </div>
 </div>
 `;

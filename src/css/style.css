@@ -1,32 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;600;700&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.timeline-container::before,
-.list-updates::before,
-.list-updates .update::before {
+ 
+.timeline::before,
+.list-actions::before,
+.list-actions .update::before {
   content: "";
 }
 
-.timeline-container::before,
-.list-updates::before,
-.list-updates .update::before
+.timeline::before,
+.list-actions::before,
+.list-actions .update::before
 {
   position: absolute;
 }
 
-.timeline-container,
-.list-updates .update,
-.list-updates {
+.timeline,
+.list-actions .update,
+.list-actions {
   position: relative;
 }
  
 .main {
   display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
 }
 
 body {
@@ -38,30 +35,24 @@ body {
   justify-content: center;
 }
 
-.timeline-container {
+.timeline {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 2rem 4rem 6rem 4rem;
   border-radius: 5px;
-  width: 120%;
-  margin: 4rem;
+  min-width: 43%;
+  margin: 2rem;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
-
-.timeline-container::before {
-  width: 120%;
+ 
+.timeline::before {
+  width: 111%;
   height: 13rem;
-  background-image: linear-gradient(
-    -35deg,
-    #E62000,
-    #E62000 50%,
-    #E68273 50%,
-    #E68273
-  );
+  background-image: linear-gradient( 
+  -35deg, #E62000, #E62000 50%, #E68273 50%, #E68273 );
   border-radius: 15px;
   z-index: -1;
-  left: -10%;
+  left: -6%;
   top: -3rem;
-  
 }
 
 h1 {
@@ -121,19 +112,19 @@ h1 {
   font-size: 0.85rem;
 }
 
-.list-updates {
+.list-actions {
   list-style: none;
   padding-left: 0!important;
 }
 
-.list-updates::before {
+.list-actions::before {
   height: 100%;
   width: 2px;
   background-color: #ec2e57;
   left: -1rem;
 }
 
-.list-updates .update {
+.list-actions .update {
   background-color: #fff;
   padding: 1rem;
   border-radius: 10px;
@@ -141,7 +132,7 @@ h1 {
   box-shadow: 0 3px 15px -5px rgba(0, 0, 0, 0.15);
 }
 
-.list-updates .update::before {
+.list-actions .update::before {
   height: 12px;
   width: 12px;
   border-radius: 50%;
@@ -166,14 +157,14 @@ h1 {
   .main{
     display: inline;
   }
-  .timeline-container {
+
+  .timeline {
     padding: 3rem 3rem 1rem 3rem!important;
     width: 100%!important;
     margin: 3% 3% 2rem 0;
-     
   }
-  .timeline-container::before {
-    top: -1rem !important;;
   
+  .timeline::before {
+    top: -1rem !important;;
   }
 }

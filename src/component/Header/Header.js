@@ -12,11 +12,18 @@ class Header extends Component {
       data: this.props.data
     }
   }
-
+  // Return the status of the ticket
   getStatus(ticketInfo) {
     return ticketInfo.woStatusText === 'In Progress' ?
       <span className="details" style={{ fontWeight: 'bold', color: 'green' }}>In Progress</span>
       : <span className="details" style={{ fontWeight: 'bold', color: 'blue' }}>{ticketInfo.woStatusText}</span>
+  }
+
+  // Returns the Action Button of the ticket
+  getActions(ticketInfo) {
+    return ticketInfo.cancelable === true && ticketInfo.woStatusText === 'In Progress' ?
+      <Buttons variant='danger' tooltip={'Cancel the Ticket'} size='sm' label=' Cancel Ticket ' /> :
+      <Buttons variant='primary' tooltip={'Reopen the Ticket'} size='sm' label=' Reopen Ticket' />
   }
 
   render() {
@@ -26,13 +33,7 @@ class Header extends Component {
         <h2 className="title">Ticket no: #{ticketInfo.woNum}</h2>
         <h3 className="details">Status: {this.getStatus(ticketInfo)}</h3>
         <h3 className="details">Created On: <DateTimeDisplay date={ticketInfo.creationDate} timeFormat={'hh:mm'} /> </h3>
-        <div className='container-fluid'>
-          {
-            ticketInfo.cancelable === true && ticketInfo.woStatusText === 'In Progress' ?
-              <Buttons variant='danger' tooltip={'Cancel the Ticket'} size='sm' label=' Cancel Ticket ' /> :
-              <Buttons variant='primary' tooltip={'Reopen the Ticket'} size='sm' label=' Reopen Ticket' />
-          }
-        </div>
+        <div className='container-fluid'> {this.getActions(ticketInfo)} </div>
       </div >
     )
   }

@@ -16,24 +16,21 @@ class Activities extends Component {
   render() {
 
     return (
-
       <div className="main">
         {
-          this.state.activities.map((e, id) => {
+          this.state.activities.map((activity, id) => {
             return (
-              <div key={id} className="timeline-container">
+              <div key={id} className="timeline">
                 <div className="container">
-                  <Header data={e} />
+                  <Header data={activity} />
                 </div>
                 <div className="container">
-                  <div className="journey">
-                    <h1>Ticket Journey</h1>
-                  </div>
-                  <ul className="list-updates">
+                  <div className="journey"> <h1>Ticket Journey</h1> </div>
+                  <ul className="list-actions">
                     {
-                      e['activities'].map((attr, index) => {
+                      activity['activities'].map((attr, index) => {
                         return (
-                          <li key={attr.activityCode} className="update" ng-repeat="itembx">
+                          <li key={attr.activityCode} className="update">
                             <Activity
                               activityCode={attr.activityCode}
                               status={attr.status}
@@ -51,7 +48,6 @@ class Activities extends Component {
                 </div>
               </div >
             );
-
           })
         }
       </div>
