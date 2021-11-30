@@ -9,7 +9,7 @@ class Activities extends Component {
     super(props)
 
     this.state = {
-      ac: this.props.data,
+      activities: this.props.data,
     }
   }
 
@@ -19,7 +19,7 @@ class Activities extends Component {
 
       <div className="main">
         {
-          this.state.ac.map((e, id) => {
+          this.state.activities.map((e, id) => {
             return (
               <div key={id} className="timeline-container">
                 <div className="container">
