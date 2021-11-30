@@ -24,6 +24,7 @@
   flex-flow: row wrap;
   align-content: space-between;
   justify-content: space-between;
+  width: 108%;
 }
 
 body {
@@ -163,7 +164,7 @@ h1 {
     width: 100%!important;
     margin: 3% 3% 2rem 0;
   }
-  
+
   .timeline::before {
     top: -1rem !important;;
   }
