@@ -55,17 +55,5 @@ Creates the snapshot tests.
  
 
 Your app is ready to be deployed!
-
-### Sequence
-                    
-```seq
-index.html 
-index.js
-Login.js
-App.js 
-data.json
-Activities.js
-Header.js
-Activity.js
-```
+ 
 ### End

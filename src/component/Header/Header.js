@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import "react-awesome-button/dist/styles.css";
 import Buttons from '../../common/Buttons'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { faCalendar } from '@fortawesome/free-solid-svg-icons'
 import DateTimeDisplay from '../../common/DateTimeDisplay';
+import Icon from '../../common/Icon'
 class Header extends Component {
 
   constructor(props) {
@@ -32,7 +34,7 @@ class Header extends Component {
       <div className="head">
         <h2 className="title">Ticket no: #{ticketInfo.woNum}</h2>
         <h3 className="details">Status: {this.getStatus(ticketInfo)}</h3>
-        <h3 className="details">Created On: <DateTimeDisplay date={ticketInfo.creationDate} timeFormat={'hh:mm'} /> </h3>
+        <h3 className="details">Created On: <Icon icon={faCalendar} /><DateTimeDisplay date={ticketInfo.creationDate} timeFormat={'hh:mm'} /> </h3>
         <div className='container-fluid'> {this.getActions(ticketInfo)} </div>
       </div >
     )

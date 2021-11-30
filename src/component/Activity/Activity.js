@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { faComment } from '@fortawesome/free-solid-svg-icons'
 import DateTimeDisplay from '../../common/DateTimeDisplay'
 import Icon from '../../common/Icon'
+import { faStopwatch } from '@fortawesome/free-solid-svg-icons'
 class Activity extends Component {
 
   constructor(props) {
@@ -28,8 +29,9 @@ class Activity extends Component {
     return (
       <div className="activity">
         <h3 className="details" >{this.state.activityCode} | {this.getStatus()}</h3>
-        <DateTimeDisplay date={this.state.startDate + 'T' + this.state.startTime} />
-        <Icon icon={faComment} color="#E62000" customerMessage={this.state.customerMessage} />
+        <Icon icon={faStopwatch} /> <DateTimeDisplay date={this.state.startDate + 'T' + this.state.startTime} />
+        <div> <Icon icon={faComment} color="#E62000" customerMessage={this.state.customerMessage} /></div>
+
       </div>
     );
   }
