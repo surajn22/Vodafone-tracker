@@ -1,6 +1,6 @@
-# TicketStatus
+# Vodafone-tracker
 
-- TicketStatus is webapp developed using ReactJS,HTML,CSS, Json
+- Vodafone-tracker is webapp developed using ReactJS,HTML,CSS, Json
 - Compatible with all major browsers (IE8+);
 - It reads the data.json file and displays the tickets and its activities.
 
